@@ -1,0 +1,32 @@
+html ,body ,.contenedor ,.cuadritos{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor{
+    display: grid;
+    grid-auto-rows:3fr 1fr 4fr;
+    background: aqua;
+}
+a{
+    display: grid;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    
+}
+
+.cuadritos{
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    background: aliceblue;
+    justify-items: center;
+}
+.cuadro5{
+    grid-column: 2;
+}
+
