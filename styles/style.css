@@ -7,7 +7,7 @@ html ,body ,.contenedor ,.cuadritos{
 .contenedor{
     display: grid;
     grid-auto-rows:3fr 1fr 4fr;
-    background: aqua;
+    background: rgb(194, 224, 224);
 }
 a{
     display: grid;
@@ -16,8 +16,7 @@ a{
 .menu{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    
+    justify-items: center;  
 }
 
 .cuadritos{
@@ -25,8 +24,58 @@ a{
     display: grid;
     background: aliceblue;
     justify-items: center;
+    align-items: center;
+    border: 2px solid;
+    gap:10px;
 }
-.cuadro5{
+.cuadro{
+    border-radius: 1%;
+    border: 2px solid;
+    width:340px;
+    height:180px;
+}
+#cuadro5{
+   
     grid-column: 2;
 }
-
+#cuadro3{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    background-color: white;
+}
+#linea1 ,#linea2 ,#espana1 ,#espana1 ,#espana2 ,#espana3{
+    width: 100%;
+    height:100%;
+}
+#linea1 ,#linea2 ,#espana1 ,#espana2,#espana3 {
+    background-color:red;
+}
+#linea1{
+    grid-row-start:5;
+    grid-row-end:7;
+    grid-column-start:1;
+    grid-column-end:11; 
+  
+}
+#linea2{
+    grid-row-start:1;
+    grid-row-end:11;
+    grid-column-start:7;
+    grid-column-end:7;
+}
+#cuadro2{
+     grid-template-rows: 1fr 2fr 1fr;
+     display: grid;
+}
+#espana2{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: orange;
+}
+#cuadro2 img{
+    width: 60px;
+    height:60px;
+}
