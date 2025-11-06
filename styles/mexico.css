@@ -1,0 +1,19 @@
+#mexico{
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+}
+#mexico-verde{
+    background-color: rgb(0, 104, 71);
+}
+#mexico-blanco img{
+    width:70%;
+    aspect-ratio:1/1;
+}
+#mexico-blanco{
+    display: grid;
+    background-color: white;
+    place-items: center;
+}
+#mexico-rojo{
+    background-color: red;
+}

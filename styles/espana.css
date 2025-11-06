@@ -1,0 +1,18 @@
+#espana{
+     grid-template-rows: 1fr 2fr 1fr;
+     display: grid;
+}
+#espana-franja-sup, #espana-franja-inf {
+    background-color:red;
+}
+#espana-franja-cen{
+    align-items: center;
+    justify-items: end;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: orange;
+}
+#espana img{
+    width:70%;
+    aspect-ratio:1/1;
+}

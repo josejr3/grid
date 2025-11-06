@@ -2,45 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banderas con Grid</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/suiza.css">
+    <link rel="stylesheet" href="styles/espana.css">
+    <link rel="stylesheet" href="styles/inglaterra.css">
+    <link rel="stylesheet" href="styles/grecia.css">
+    <link rel="stylesheet" href="styles/mexico.css">
 </head>
 <body>
     <h1>Galería de Banderas con CSS Grid</h1>
-    <div class="contenedor">
         <div class="elemento">
-            <div class="cuadritos">
-                <div class="cuadro" id="suiza">
-                    <div id="suiza-v"></div>
-                    <div id="suiza-h"></div>
+            <div class="banderas">
+                
+                <div class="bandera" id="suiza">
+                    <div id="suiza-ver"></div>
+                    <div id="suiza-hor"></div>
                 </div>
-                <div class="cuadro"id="cuadro2">
-                    <div id="espana1"></div>
-                    <div id="espana2"><img src="img/Escudo.svg"></div>
-                    <div id="espana3"></div>
+
+                <div class="bandera" id="espana">
+                    <div id="espana-franja-sup"></div>
+                    <div id="espana-franja-cen"><img src="img/Escudo.svg"></div>
+                    <div id="espana-franja-inf"></div>
                 </div>
-                <div class="cuadro"id="cuadro3">
-                    <div id="linea1"></div>
-                    <div id="linea2"></div>
+
+                <div class="bandera" id="inglaterra">
+                    <div id="inglaterra-hor"></div>
+                    <div id="inglaterra-ver"></div>
                 </div>
-                <div class="cuadro" id="grecia">
-                <div id="grecia-canton">
-                    <div id="grecia-cruz-v"></div>
-                    <div id="grecia-cruz-h"></div>
+                
+                <div class="bandera" id="grecia">
+                    <div id="grecia-canton">
+                        <div id="grecia-cruz-ver"></div>
+                        <div id="grecia-cruz-hor"></div>
+                    </div>
+                    <div class="franja-blanca" id="grecia-franja-1"></div>
+                    <div class="franja-blanca" id="grecia-franja-2"></div>
+                    <div class="franja-blanca" id="grecia-franja-3"></div>
+                    <div class="franja-blanca" id="grecia-franja-4"></div>
                 </div>
-                    <div class="franja-blanca" id="franja1"></div>
-                    <div class="franja-blanca" id="franja2"></div>
-                    <div class="franja-blanca" id="franja3"></div>
-                    <div class="franja-blanca" id="franja4"></div>
+                
+                <div class="bandera" id="mexico">
+                    <div id="mexico-verde"></div>
+                    <div id="mexico-blanco"><img src="img/Mexico.svg" ></div>
+                    <div id="mexico-rojo"></div>
                 </div>
-                <div class="cuadro" id="Mexico">
-                    <div id="mexico1"></div>
-                    <div id="mexico2"><img src="img/Mexico.svg" ></div>
-                    <div id="mexico3"></div>
-                </div>
+
             </div>
         </div>
-    </div>
 </body>
 </html>

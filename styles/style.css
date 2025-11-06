@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 20px;
@@ -9,18 +8,7 @@ h1 {
     color: #333;
 }
 
-a{
-    display: grid;
-}
-
-.menu{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;  
-}
-
-
-.cuadritos{
+.banderas{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
@@ -29,7 +17,7 @@ a{
     align-items: center;
     justify-items: center;
 }
-.cuadro{
+.bandera{
     border: 1px solid #ddd;
     width:100%;
     aspect-ratio:19/10;
@@ -37,138 +25,4 @@ a{
     border-radius: 8px;
     overflow: hidden;
     background-color: white;
-}
-#Mexico{
-   display: grid;
-   grid-template-columns: repeat(3 ,1fr);
-}
-#cuadro3{
-    display: grid;
-    grid-template-columns: 4fr  1fr 4fr;
-    grid-template-rows: 2fr  1fr 2fr;
-    background-color: white;
-}
-
-
-#linea1 ,#linea2 ,#espana1 ,#espana2,#espana3 {
-    background-color:red;
-}
-#linea1{
-    grid-row-start:2;
-    grid-row-end:3;
-    grid-column-start:1;
-    grid-column-end:4; 
-  
-}
-#linea2{
-    grid-row-start:1;
-    grid-row-end:4;
-    grid-column-start:2;
-    grid-column-end:3;
-}
-
-#cuadro2{
-     grid-template-rows: 1fr 2fr 1fr;
-     display: grid;
-}
-#espana2{
-    align-items: center;
-    justify-items: end;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    background-color: orange;
-}
-#cuadro2 img{
-    width:70%;
-    aspect-ratio:1/1;
-}
-#mexico1{
-    background-color: rgb(0, 104, 71);
-}
-#mexico2 img{
-    width:70%;
-    aspect-ratio:1/1;
-}
-#mexico2{
-    display: grid;
-    background-color: white;
-    place-items: center;
-}
-
-#mexico3{
-    background-color: red;
-}
-
-#suiza {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    background-color: red;
-}
-
-#suiza-v {
-    background-color: white;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 5;
-}
-
-#suiza-h {
-    background-color: white;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-/*grecia*/
-#grecia {
-    display: grid;
-    grid-template-rows: repeat(9, 1fr);
-    grid-template-columns: 5fr 8fr;
-    background-color: #0D5EAF;
-}
-#grecia-canton {
-    grid-row: 1 / 6;
-    grid-column: 1;
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 2fr 1fr 2fr;
-    background-color: #0D5EAF;
-}
-#grecia-cruz-v {
-    background-color: white;
-    grid-column: 2;
-    grid-row: 1 / 4;
-}
-
-#grecia-cruz-h {
-    background-color: white;
-    grid-column: 1 / 4;
-    grid-row: 2;
-}
-
-.franja-blanca {
-    background-color: white;
-}
-
-#franja1 {
-    grid-row: 2;
-    grid-column: 2;
-}
-
-#franja2 {
-    grid-row: 4;
-    grid-column: 2;
-}
-
-#franja3 {
-    grid-row: 6;
-    grid-column: 1 / 3;
-}
-
-#franja4 {
-    grid-row: 8;
-    grid-column: 1 / 3;
 }
